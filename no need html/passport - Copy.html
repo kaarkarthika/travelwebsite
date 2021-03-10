@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>New Travel Experts | Passport</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- FONT CSS-->
+        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,900">
+        <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+        <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-awesome/css/font-awesome.css">
+        <link type="text/css" rel="stylesheet" href="assets/font/font-icon/font-flaticon/flaticon.css">
+        <!-- LIBRARY CSS-->
+        <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/animate/animate.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/slick-slider/slick-theme.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/selectbox/css/jquery.selectbox.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/please-wait/please-wait.css">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox.css?v=2.1.5">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox-buttons.css?v=1.0.5">
+        <link type="text/css" rel="stylesheet" href="assets/libs/fancybox/css/jquery.fancybox-thumbs.css?v=1.0.7">
+        <!-- STYLE CSS-->
+        <link type="text/css" rel="stylesheet" href="assets/css/layout.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/components.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/responsive.css">
+        <link type="text/css" rel="stylesheet" href="assets/css/color.css">
+        <!--link(type="text/css", rel='stylesheet', href='assets/css/color-1/color-1.css', id="color-skins")-->
+        <link type="text/css" rel="stylesheet" href="#" id="color-skins">
+        <script src="assets/libs/jquery/jquery-2.2.3.min.js"></script>
+        <script src="assets/libs/js-cookie/js.cookie.js"></script>
+        <script>
+            if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-1'))
+            {
+                $('#color-skins').attr('href', 'assets/css/' + Cookies.get('color-skin') + '/' + 'color.css');
+            }
+            else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-1'))
+            {
+                $('#color-skins').attr('href', 'assets/css/color-1/color.css');
+            }
+        </script>
+        <link type="text/css" rel="stylesheet" href="assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+    </head>
+    <body>
+        <div class="body-wrapper">
+            <!-- MENU MOBILE-->
+            <div class="wrapper-mobile-nav">
+                <div class="header-topbar">
+                    <div class="topbar-search search-mobile">
+                        <form class="search-form">
+                            <div class="input-icon">
+                                <i class="btn-search fa fa-search"></i>
+                                <input type="text" placeholder="Search here..." class="form-control" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-main">
+                    <div class="menu-mobile">
+              <ul class="nav-links nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="index.html" class="main-menu">
+                                    <span class="text">Home</span>
+                                </a>
+                        
+                            </li>
+                            <li>
+                                <a href="about-us.html" class="main-menu">
+                                    <span class="text">about</span>
+                                </a>
+                            </li>
+                      
+                            <li class="dropdown">
+                                <a href="packages.html" class="main-menu">
+                                    <span class="text">packages</span>
+                                </a>
+                                <span class="icons-dropdown">
+                                    <i class="fa fa-angle-down"></i>
+                                </span>
+                                <ul class="dropdown-menu dropdown-menu-1">
+                                    <li>
+                                        <a href="#" class="link-page">South India Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">North India Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">OutBound Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">Honeymoon Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">Students Tours</a>
+                                    </li>
+                                       <li>
+                                        <a href="#" class="link-page">WeekEnd Tours</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="main-menu">
+                                    <span class="text">Enquiry</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="main-menu">
+                                    <span class="text">Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                  
+                    </div>
+                </div>
+            </div>
+            <!-- WRAPPER CONTENT-->
+            <div class="wrapper-content">
+                <!-- HEADER-->
+                <header>
+                    <div class="bg-transparent">
+ 
+                        <div class="header-main">
+                            <div class="container">
+                                <div class="header-main-wrapper">
+                                    <div class="hamburger-menu">
+                                        <div class="hamburger-menu-wrapper">
+                                            <div class="icons"></div>
+                                        </div>
+                                    </div>
+                                    <div class="navbar-header">
+                                        <div class="logo">
+                                            <a href="index.html" class="header-logo">
+                                                <img src="assets/images/logo/logo-color-1.png" alt="" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <nav class="navigation">
+                                               <ul class="nav-links nav navbar-nav">
+                                            <li class="dropdown active">
+                                                <a href="index.html" class="main-menu">
+                                                    <span class="text">Home</span>
+                                                 
+                                                </a>
+                                            </li>
+                                            
+                                            <li>
+                                                <a href="about-us.html" class="main-menu">
+                                                    <span class="text">about</span>
+                                                </a>
+                                            </li>
+                                    
+                                            <li class="dropdown">
+                                                <a href="javascript:void(0)" class="main-menu">
+                                                    <span class="text">packages</span>
+                                                    <span class="icons-dropdown">
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </span>
+                                                </a>
+                                                   <ul class="dropdown-menu dropdown-menu-1">
+                                    <li>
+                                        <a href="#" class="link-page">South India Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">North India Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">OutBound Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">Honeymoon Tours</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="link-page">Students Tours</a>
+                                    </li>
+                                       <li>
+                                        <a href="#" class="link-page">WeekEnd Tours</a>
+                                    </li>
+                                </ul>
+                                            </li>
+                                        <li>
+                                                <a href="contact.html" class="main-menu">
+                                                    <span class="text">Enquiry</span>
+                                                </a>
+                                            </li>
+                              
+                                            <li>
+                                                <a href="contact.html" class="main-menu">
+                                                    <span class="text">contact</span>
+                                                </a>
+                                            </li>
+                                  
+                                        </ul>
+                                 
+                                    </nav>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <!-- WRAPPER-->
+                <div id="wrapper-content">
+                    <!-- MAIN CONTENT-->
+                    <div class="main-content">
+                        <section class="page-banner flight-result">
+                            <div class="container">
+                                <div class="page-title-wrapper">
+                                    <div class="page-title-content">
+                                        <ol class="breadcrumb">
+                                            <li>
+                                                <a href="index.html" class="link home">Home</a>
+                                            </li>
+                                            <li class="active">
+                                                <a href="#" class="link">Passport</a>
+                                            </li>
+                                        </ol>
+                                        <div class="clearfix"></div>
+                                        <h2 class="captions">PASSPORT</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                         <section>
+                            <div class="tab-search tab-search-long tab-search-default">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <ul role="tablist" class="nav nav-tabs">
+                                                <li role="presentation" class="tab-btn-wrapper active">
+                                                    <a href="passport.html"   class="tab-btn ">
+                                                    <i class="fa fa-ticket"></i>
+                                                        <span class="text">PASSPORT</span>
+                                                        <!-- <span class="xs">FIND YOUR FLIGHT</span> -->
+                                                    </a>
+                                                </li>
+                                                <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#transfer"  class="tab-btn ">
+                                                        <i class="fa fa-cc-visa"></i>
+                                                        <span class="text">VISA</span>
+                                                      <!--   <span class="xs">FIND TRANSFER</span> -->
+                                                    </a>
+                                                </li>
+                                                <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#hotel"   class="tab-btn">
+                                                       <i class="fa fa-fighter-jet"></i>
+                                                        <span class="text">FLIGHT TICKET</span>
+                                                      <!--   <span class="xs">FIND HOTEL</span> -->
+                                                    </a>
+                                                </li>
+                                                <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#tours"  class="tab-btn">
+                                                       <i class="fa fa-suitcase"></i>
+                                                        <span class="text">TOUR PACKAGES</span>
+                                                      <!--   <span class="xs">FIND TOURS</span> -->
+                                                    </a>
+                                                </li>
+                                                <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#car-rent"  class="tab-btn">
+                                                       <i class="fa fa-building"></i>
+                                                        <span class="text">HOTEL BOOKING</span>
+                                                        <!-- <span class="xs">FIND CAR RENT</span> -->
+                                                    </a>
+                                                </li>
+                                                <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#cruises" class="tab-btn">
+                                                      <i class="fa fa-users"></i>
+                                                        <span class="text">INSURANCE</span>
+                                                       <!--  <span class="xs">FIND CRUISES</span> -->
+                                                    </a>
+                                                </li>
+                                                        <li role="presentation" class="tab-btn-wrapper">
+                                                    <a href="#transfer" class="tab-btn">
+                                                       <i class="fa fa-ship"></i>
+                                                        <span class="text">CRUISES</span>
+                                                       <!--  <span class="xs">FIND TRANSFER</span> -->
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </section>
+
+
+                        <div class="page-main">
+       
+                        
+                            <div class="car-rent-result-main ">
+                                <div class="container">
+                                    <div class="wrapper-car-detail">
+                                        <div class="content-result">
+                                            <div class="row">
+                                               
+                              
+                                            </div>
+                                        </div>
+                                        <div class="content-dr-dt">
+                                            <div class="wrapper-driver-detail">
+                                                <div class="driver-title">
+                                                    <span class="title">Passport Application</span>
+                                                   <!--  <span class="title-small">( Enter traveler details below )</span> -->
+                                                </div>
+                                                <div class="content-driver-detail">
+                                                    <div class="content-driver-caption">
+                                                        <div class="row">
+                                                            <div class="wrapper-form-driver">
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <span class="number">01</span>
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Traveler</label>
+                                                                            <div class="select-wrapper">
+                                                                                <select class="tb-input form-control custom-select selectbox">
+                                                                                    <option selected="selected">1</option>
+                                                                                    <option>2</option>
+                                                                                    <option>3</option>
+                                                                                    <option>4</option>
+                                                                                    <option>5</option>
+                                                                                    <option>6</option>
+                                                                                    <option>7</option>
+                                                                                    <option>8</option>
+                                                                                    <option>9</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">First Name:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Middle Name</label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Last Name:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver date">
+                                                                        <div class="main-form-title text-box-wrapper">
+                                                                            <label class="main-lb">Day Of Birth:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" placeholder="mm/dd/yy" class="tb-input">
+                                                                                <i class="tb-icon fa fa-calendar input-group-addon"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Gender</label>
+                                                                            <div class="select-wrapper">
+                                                                                <select class="tb-input form-control custom-select selectbox">
+                                                                                    <option selected="selected">Select</option>
+                                                                                    <option>Made</option>
+                                                                                    <option>Female</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content-driver-caption">
+                                                        <div class="row">
+                                                            <div class="wrapper-form-driver">
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <span class="number">02</span>
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Traveler</label>
+                                                                            <div class="select-wrapper">
+                                                                                <select class="tb-input form-control custom-select selectbox">
+                                                                                    <option selected="selected">1</option>
+                                                                                    <option>2</option>
+                                                                                    <option>3</option>
+                                                                                    <option>4</option>
+                                                                                    <option>5</option>
+                                                                                    <option>6</option>
+                                                                                    <option>7</option>
+                                                                                    <option>8</option>
+                                                                                    <option>9</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">First Name:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Middle Name</label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Last Name:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control tb-input">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver date">
+                                                                        <div class="main-form-title text-box-wrapper">
+                                                                            <label class="main-lb">Day Of Birth:
+                                                                                <i class="form-icon fa fa-asterisk"></i>
+                                                                            </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" placeholder="mm/dd/yy" class="tb-input">
+                                                                                <i class="tb-icon fa fa-calendar input-group-addon"></i>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 col-sm-12">
+                                                                    <div class="main-form-driver">
+                                                                        <div class="main-form-title">
+                                                                            <label class="main-lb">Gender</label>
+                                                                            <div class="select-wrapper">
+                                                                                <select class="tb-input form-control custom-select selectbox">
+                                                                                    <option selected="selected">Select</option>
+                                                                                    <option>Made</option>
+                                                                                    <option>Female</option>
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-driver-detail">
+                                                <div class="driver-title">
+                                                    <span class="title">Rental Car Damage Protection Plan</span>
+                                                </div>
+                                                <div class="content-driver-caption">
+                                                    <div class="row">
+                                                        <div class="col-md-7">
+                                                            <div class="driver-caption-title">
+                                                                <span class="title">Secure your investment</span>
+                                                            </div>
+                                                            <ul class="wrapper-check list-unstyled">
+                                                                <li>
+                                                                    <i class="check-icon fa fa-angle-double-right"></i>
+                                                                    <span>Receive Trip Cancellation & Interruption benefits up to $100,000 For Covered Reasons.</span>
+                                                                </li>
+                                                                <li>
+                                                                    <i class="check-icon fa fa-angle-double-right"></i>
+                                                                    <span>24 Hour emergency assistance service is included with insurance purchase.</span>
+                                                                </li>
+                                                            </ul>
+                                                            <form class="form-check">
+                                                                <div class="check-radio">
+                                                                    <input type="radio" name="radio" value="yes" id="radio-1" class="input-check">
+                                                                    <label for="radio-1" class="lb-radio">Yes, add travel protection plan. View Plan Summary for terms and conditions.</label>
+                                                                </div>
+                                                                <div class="check-radio">
+                                                                    <input type="radio" name="radio" value="no" id="radio-2" class="input-check">
+                                                                    <label for="radio-2" class="lb-radio">No, I wish to decline travel protection and emergency assistance service.</label>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <div class="driver-caption-title">
+                                                                <span class="title">Coverage Includes:</span>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-5 col-sm-6 col-xs-6">
+                                                                    <ul class="wrapper-check list-unstyled">
+                                                                        <li>
+                                                                            <i class="check-icon fa fa-check-circle-o"></i>
+                                                                            <span> Trip Cancellation </span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="check-icon fa fa-check-circle-o"></i>
+                                                                            <span>Trip Delay </span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-md-7 col-sm-6 col-xs-6">
+                                                                    <ul class="wrapper-check list-unstyled">
+                                                                        <li>
+                                                                            <i class="check-icon fa fa-check-circle-o"></i>
+                                                                            <span>Trip Interruption</span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <i class="check-icon fa fa-check-circle-o"></i>
+                                                                            <span>Baggage Delay</span>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-driver-detail">
+                                                <div class="driver-title">
+                                                    <span class="title">Payment Info </span>
+                                                    <span class="title-small">( Secure SSL Encrypted Transaction )</span>
+                                                </div>
+                                                <div class="content-driver-caption payment">
+                                                    <div class="wrapper-payment">
+                                                        <div class="content-payment">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="main-form-title">
+                                                                        <label class="main-lb">Payment Method:
+                                                                            <i class="form-icon fa fa-asterisk"></i>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="main-form-title">
+                                                                        <div class="select-wrapper">
+                                                                            <select class="tb-input form-control custom-select selectbox">
+                                                                                <option selected="selected">Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5">
+                                                                    <form class="form-check form-check-img">
+                                                                        <div class="check-radio">
+                                                                            <input type="radio" name="radio" value="yes" id="radio-3" class="input-check">
+                                                                            <label for="radio-3" class="img-radio">
+                                                                                <img src="assets/images/logo/logo-detail-1.jpg" alt="" class="img-responsive">
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="check-radio">
+                                                                            <input type="radio" name="radio" value="no" id="radio-4" class="input-check">
+                                                                            <label for="radio-4" class="img-radio">
+                                                                                <img src="assets/images/logo/logo-detail-2.jpg" alt="" class="img-responsive">
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="check-radio">
+                                                                            <input type="radio" name="radio" value="yes" id="radio-5" class="input-check">
+                                                                            <label for="radio-5" class="img-radio">
+                                                                                <img src="assets/images/logo/logo-detail-3.jpg" alt="" class="img-responsive">
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="check-radio">
+                                                                            <input type="radio" name="radio" value="no" id="radio-6" class="input-check">
+                                                                            <label for="radio-6" class="img-radio">
+                                                                                <img src="assets/images/logo/logo-detail-4.jpg" alt="" class="img-responsive">
+                                                                            </label>
+                                                                        </div>
+                                                                        <div class="check-radio">
+                                                                            <input type="radio" name="radio" value="no" id="radio-7" class="input-check">
+                                                                            <label for="radio-7" class="img-radio">
+                                                                                <img src="assets/images/logo/logo-detail-5.jpg" alt="" class="img-responsive">
+                                                                            </label>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-payment">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="main-form-title">
+                                                                        <label class="main-lb">Credit or Debit Card Number:
+                                                                            <i class="form-icon fa fa-asterisk"></i>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="main-form-title">
+                                                                        <div class="select-wrapper">
+                                                                            <select class="tb-input form-control custom-select selectbox">
+                                                                                <option selected="selected">Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5">
+                                                                    <p class="text">( Pay with credit or debit card )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-payment">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="main-form-title">
+                                                                        <label class="main-lb">Card Holder's Name:
+                                                                            <i class="form-icon fa fa-asterisk"></i>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="main-form-title">
+                                                                        <div class="select-wrapper">
+                                                                            <select class="tb-input form-control custom-select selectbox">
+                                                                                <option selected="selected">Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5">
+                                                                    <p class="text">( As it appears on your credit card )</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-payment">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="main-form-title">
+                                                                        <label class="main-lb">Expiration Date:
+                                                                            <i class="form-icon fa fa-asterisk"></i>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="main-form-title">
+                                                                        <div class="select-wrapper">
+                                                                            <select class="tb-input form-control custom-select selectbox">
+                                                                                <option selected="selected">Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-payment">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="main-form-title">
+                                                                        <label class="main-lb">Card Verification Numbe:
+                                                                            <i class="form-icon fa fa-asterisk"></i>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="main-form-title">
+                                                                        <div class="select-wrapper">
+                                                                            <select class="tb-input form-control custom-select selectbox">
+                                                                                <option selected="selected">Select</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="driver-text-card">
+                                                        <p class="text-card">[+] Pay with two credit or debit cards (optional)</p>
+                                                    </div>
+                                                    <div class="payment-policy">
+                                                        <span class="text">Payment Acceptance Policy </span>
+                                                        <div class="text lock">
+                                                            <i class="lock-icon fa fa-lock"></i>
+                                                            <span>Privacy Policy </span>
+                                                        </div>
+                                                        <span class="text">100% Safe Purchase Guarantee</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-driver-detail">
+                                                <div class="driver-title">
+                                                    <span class="title">Billing & Contact Information</span>
+                                                </div>
+                                                <div class="content-driver-caption wrapper-billing">
+                                                    <div class="wrapper-payment billing-contact">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <p class="text-title">Credit Card Billing Address:</p>
+                                                                <form class="fm-billing">
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Country:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <select class="tb-input form-control custom-select selectbox">
+                                                                                            <option selected="selected">Select</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Street:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <input type="text" class="tb-input form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">City:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <input type="text" class="tb-input form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">State:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <select class="tb-input form-control custom-select selectbox">
+                                                                                            <option selected="selected">Select</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Zip:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <input type="text" class="tb-input form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <p class="text-title">Contact Information:</p>
+                                                                <form class="fm-billing">
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Billing Phone:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <select class="tb-input form-control custom-select selectbox">
+                                                                                            <option selected="selected">Select</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Mobile Phone:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <input type="text" class="tb-input form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title"></div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <i class="check-icon fa fa-check-circle-o"></i>
+                                                                                    <span>Yes, text me FREE flight updates</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Email:
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <select class="tb-input form-control custom-select selectbox">
+                                                                                            <option selected="selected">Select</option>
+                                                                                        </select>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="content-billing content-payment">
+                                                                        <div class="row">
+                                                                            <div class="col-md-3">
+                                                                                <div class="main-form-title">
+                                                                                    <label class="main-lb">Retype Email
+                                                                                        <i class="form-icon fa fa-asterisk"></i>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-md-9">
+                                                                                <div class="main-form-title">
+                                                                                    <div class="select-wrapper">
+                                                                                        <input type="text" class="tb-input form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="wrapper-driver-detail wrapper-review">
+                                                <div class="driver-title">
+                                                    <span class="title">Policies & Review</span>
+                                                </div>
+                                                <div class="content-driver-caption">
+                                                    <div class="text-traveler">
+                                                        <span class="text">Please confirm that the names of travelers are accurate: </span>
+                                                        <span class="text">Traveler 1
+                                                            <strong>(N/A), </strong>
+                                                        </span>
+                                                        <span class="text">Traveler 2
+                                                            <strong>(N/A). </strong>
+                                                        </span>
+                                                        <span class="text-underline">(make changes)</span>
+                                                    </div>
+                                                    <p class="text">Please also confirm that the dates and times of flight departures are accurate. Tickets are non-transferable and name changes on tickets are not permitted. Ticket cost for most airlines is non-refundable
+                                                        (see Fare Rules) and our service fees are non-refundable. All our service fees and taxes are included in the total ticket cost. However, tickets may be refunded if requested within four (4) hours
+                                                        from the time of purchase at no cost, and within twenty-four (24) hours from the time of purchase for a fee . Date and routing changes will be subject to airline penalties and our service fees. Fares
+                                                        are not guaranteed until ticketed.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="text-bottom">
+                                            <p class="text">By clicking BOOK, I agree that I have read and accepted Explooer.com’s Terms and Conditions and Privacy Policy.</p>
+                                        </div>
+                                        <div class="contact-submit">
+                                            <button type="submit" data-hover="SEND NOW" class="btn btn-slide">
+                                                <span class="text">BOOK NOW</span>
+                                                <span class="icons fa fa-long-arrow-right"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- BUTTON BACK TO TOP-->
+                    <div id="back-top">
+                        <a href="#top" class="link">
+                            <i class="fa fa-angle-double-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- FOOTER-->
+                <footer>
+                    <div class="subscribe-email">
+                        <div class="container">
+                            <div class="subscribe-email-wrapper">
+                                <div class="subscribe-email-left">
+                                    <p class="subscribe-email-title">Subscribe
+                                        <span class="logo-text">Exploore</span>&nbsp;to get latest offers and deals to day</p>
+                                    <p class="subscribe-email-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                </div>
+                                <div class="subscribe-email-right">
+                                    <form action="index.html">
+                                        <div class="input-group form-subscribe-email">
+                                            <input type="text" placeholder="Write your email" class="form-control" />
+                                            <span class="input-group-btn">
+                                                <button type="submit" class="btn-email">&#8594;</button>
+                                            </span>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-main padding-top padding-bottom">
+                        <div class="container">
+                            <div class="footer-main-wrapper">
+                                <a href="index.html" class="logo-footer">
+                                    <img src="assets/images/logo/logo-white-color-1.png" alt="" class="img-responsive" />
+                                </a>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <div class="col-md-3 col-xs-5">
+                                            <div class="contact-us-widget widget">
+                                                <div class="title-widget">contact us</div>
+                                                <div class="content-widget">
+                                                            <div class="info-list">
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <i class="icons fa fa-map-marker"></i>
+                                                                <a href="#" class="link">Cee Bross Centre,Basement,
+39,Montieth Road,Chennai-600008,
+Tamil Nadu, India.</a>
+                                                            </li>
+                                                            <li>
+                                                                <i class="icons fa fa-phone"></i>
+                                                                <a href="#" class="link">91 - 44 - 42148882 / 42048368 <br>
+91 - 44 - 42148368 / 42146235</a>
+                                                            </li>
+
+                                                                   <li>
+                                                                <i class="icons fa fa-fax"></i>
+                                                                <a href="#" class="link">91 - 44 - 42146234</a>
+                                                            </li>
+
+
+                                                            <li>
+                                                                <i class="icons fa fa-envelope-o"></i>
+                                                                <a href="#" class="link">info@newtravelexperts.com<br>
+travelexperts2003@yahoo.co.in<br>
+travelexpertstours@gmail.com</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                     
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xs-3">
+                                            <div class="booking-widget widget text-center">
+                                                <div class="title-widget">book now</div>
+                                                <div class="content-widget">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="#" class="link">Flights</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tours</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Packages</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Transfer</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Car Rent</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Cruises</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 col-xs-4">
+                                            <div class="explore-widget widget">
+                                                <div class="title-widget">explore</div>
+                                                <div class="content-widget">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="#" class="link">Tour Singapore City</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Manila City</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour New York City</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Sanghai City</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Hongkong City</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Tokyo City</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="col-md-2 col-xs-6">
+                                            <div class="top-deals-widget widget">
+                                                <div class="title-widget">top deals</div>
+                                                <div class="content-widget">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages Singapore</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages Manila</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages New York</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages Sanghai</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages Hongkong</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="link">Tour Packages Tokyo</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-xs-6">
+                                            <div class="destination-widget widget">
+                                                <div class="title-widget">Gallary</div>
+                                                <div class="content-widget main-gallery-fancybox">
+                                                    <ul class="list-unstyled list-inline">
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-01.jpg" data-fancybox-group="gallery" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-01.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-01.jpg" data-fancybox-group="gallery" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-01.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-01.jpg" data-fancybox-group="gallery" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-01.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-01.jpg" data-fancybox-group="gallery" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-01.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-01.jpg" data-fancybox-group="gallery" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-01.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-02.jpg" data-fancybox-group="gallery-1" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-02.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-02.jpg" data-fancybox-group="gallery-1" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-02.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-02.jpg" data-fancybox-group="gallery-1" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-02.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-02.jpg" data-fancybox-group="gallery-1" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-02.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-02.jpg" data-fancybox-group="gallery-1" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-02.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-03.jpg" data-fancybox-group="gallery-2" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-03.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-03.jpg" data-fancybox-group="gallery-2" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-03.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-03.jpg" data-fancybox-group="gallery-2" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-03.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-03.jpg" data-fancybox-group="gallery-2" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-03.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-03.jpg" data-fancybox-group="gallery-2" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-03.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-04.jpg" data-fancybox-group="gallery-3" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-04.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-04.jpg" data-fancybox-group="gallery-3" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-04.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-04.jpg" data-fancybox-group="gallery-3" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-04.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-04.jpg" data-fancybox-group="gallery-3" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-04.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-04.jpg" data-fancybox-group="gallery-3" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-04.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-05.jpg" data-fancybox-group="gallery-4" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-05.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-05.jpg" data-fancybox-group="gallery-4" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-05.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-05.jpg" data-fancybox-group="gallery-4" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-05.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-05.jpg" data-fancybox-group="gallery-4" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-05.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-05.jpg" data-fancybox-group="gallery-4" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-05.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                        <li class="gallery-content">
+                                                            <a href="assets/images/footer/gallery-06.jpg" data-fancybox-group="gallery-5" class="wp-gallery glry-relative fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-06.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-06.jpg" data-fancybox-group="gallery-5" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-06.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-06.jpg" data-fancybox-group="gallery-5" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-06.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-06.jpg" data-fancybox-group="gallery-5" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-06.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                            <a href="assets/images/footer/gallery-06.jpg" data-fancybox-group="gallery-5" class="wp-gallery glry-absolute fancybox thumb">
+                                                                <img src="assets/images/footer/gallery-06.jpg" alt="" class="img-responsive" />
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hyperlink">
+                        <div class="container">
+                            <div class="slide-logo-wrapper">
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-01.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-02.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-03.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+              
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-01.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-02.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-03.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                             <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-01.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-02.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="logo-item">
+                                    <a href="#" class="link">
+                                        <img src="assets/images/footer/logo-03.png" alt="" class="img-responsive" />
+                                    </a>
+                                </div>
+                            
+                       
+                            </div>
+              
+                           <div class="name-company">© 2019 All Rights Reserved New Travel Experts</div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="theme-setting">
+            <div class="theme-loading">
+                <div class="theme-loading-content">
+                    <div class="dots-loader"></div>
+                </div>
+            </div>
+            <a href="javascript:;" class="btn-theme-setting">
+                <i class="fa fa-tint"></i>
+            </a>
+            <div class="content-theme-setting">
+                <h2 class="title">setting color</h2>
+                <ul class="list-unstyled list-inline color-skins">
+                    <li data-color="color-1"></li>
+                    <li data-color="color-2"></li>
+                    <li data-color="color-3"></li>
+                    <li data-color="color-4"></li>
+                    <li data-color="color-5"></li>
+                    <li data-color="color-6"></li>
+                    <li data-color="color-7"></li>
+                    <li data-color="color-8"></li>
+                    <li data-color="color-9"></li>
+                    <li data-color="color-10"></li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            if ((Cookies.get('color-skin') != undefined) && (Cookies.get('color-skin') != 'color-1'))
+            {
+                $('.logo .header-logo img ,.logo-footer img, .group-logo .img-logo').attr('src', 'assets/images/logo/logo-white-' + Cookies.get('color-skin') + '.png');
+                $('.logo-black img').attr('src', 'assets/images/logo/logo-black-' + Cookies.get('color-skin') + '.png');
+            }
+            else if ((Cookies.get('color-skin') == undefined) || (Cookies.get('color-skin') == 'color-1'))
+            {
+                $('.logo .header-logo img , .logo-footer img, .group-logo .img-logo').attr('src', 'assets/images/logo/logo-white-color-1.png');
+                $('.logo-black img').attr('src', 'assets/images/logo/logo-black-color-1.png');
+            }
+        </script>
+        <!-- LIBRARY JS-->
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/detect-browser/browser.js"></script>
+        <script src="assets/libs/smooth-scroll/jquery-smoothscroll.js"></script>
+        <script src="assets/libs/wow-js/wow.min.js"></script>
+        <script src="assets/libs/slick-slider/slick.min.js"></script>
+        <script src="assets/libs/selectbox/js/jquery.selectbox-0.2.js"></script>
+        <script src="assets/libs/please-wait/please-wait.min.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox-buttons.js"></script>
+        <script src="assets/libs/fancybox/js/jquery.fancybox-thumbs.js"></script>
+        <!--script(src="assets/libs/parallax/jquery.data-parallax.min.js")-->
+        <!-- MAIN JS-->
+        <script src="assets/js/main.js"></script>
+        <!-- LOADING JS FOR PAGE-->
+        <script src="assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+        <script>
+            var logo_str = 'assets/images/logo/logo-black-color-1.png';
+            if (Cookies.set('color-skin'))
+            {
+                logo_str = 'assets/images/logo/logo-black-' + Cookies.set('color-skin') + '.png';
+            }
+            window.loading_screen = window.pleaseWait(
+            {
+                logo: logo_str,
+                backgroundColor: '#fff',
+                loadingHtml: "<div class='spinner sk-spinner-wave'><div class='rect1'></div><div class='rect2'></div><div class='rect3'></div><div class='rect4'></div><div class='rect5'></div></div>",
+            });
+        </script>
+    </body>
+</html>
+
+<style type="text/css">
+ .page-title-wrapper .page-title-content {
+ bottom: 195px;
+}
+ 
+</style>
+
